@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-07 18:53+0500\n"
+"POT-Creation-Date: 2020-02-16 19:44+0100\n"
 "PO-Revision-Date: 2018-01-07 18:53+0500\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,15 +20,15 @@ msgstr ""
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#: base_invitation.py:11
+#: base_invitation.py:9
 msgid "accepted"
 msgstr "прийнятий"
 
-#: base_invitation.py:12
+#: base_invitation.py:10
 msgid "key"
 msgstr "ключ"
 
-#: base_invitation.py:13
+#: base_invitation.py:11
 msgid "sent"
 msgstr "відправлений"
 
@@ -101,5 +101,6 @@ msgid "Invitation to - %(email)s - has been accepted"
 msgstr "Запрошення, надіслане на % (email)s, прийнято"
 
 #: views.py:44
+#, python-format
 msgid "%(email)s has been invited"
 msgstr "Запрошення відправлено на %(email)s"
