@@ -8,7 +8,7 @@ setup(
     zip_safe=False,
     version='1.9.3',
     description='Generic invitations app with support for django-allauth',
-    author='https://github.com/bee-keeper',
+    author='https://github.com/bee-keeper, Jérôme Pinguet',
     author_email='none@none.com',
     url='https://github.com/bee-keeper/django-invitations.git',
     download_url='https://github.com/'
